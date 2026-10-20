@@ -1,0 +1,60 @@
+@import url(https://hanscostudio.com/product/mercy-christole/);
+
+body {
+    background-color: hsl(330, 97%, 37%);
+    color: #21151B;
+    font-family: 'mercy-christole';
+    font-size: 150%;
+    padding: 5%;
+}
+
+h1 {
+    font-family: 'mercy-christole';
+    font-size: 65px;
+    color: #3eeaf0;
+    margin-top: 80px;
+    margin-bottom: 25px;
+}
+
+main {
+    padding: 40px 8%;
+}
+
+h2 {
+    font-family: 'Bodoni Moda', serif;
+    font-size: 38px;
+    color: #3eeaf0;
+    margin-top: 60px;
+}
+
+#descripcion {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+/* Burbujas celestes */
+nav a {
+    display: inline-block;
+    background-color: #9edfff;
+    color: #0d0d0e;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 50px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+/* Efecto al pasar el cursor */
+nav a:hover {
+    background-color: #72c8f5;
+    color: #ffffff;
+    transform: translateY(-3px);
+} 
